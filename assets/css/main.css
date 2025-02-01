@@ -92,6 +92,13 @@ h6 {
   background-repeat: no-repeat;
   background-position: 99% 28%;
 }
+
+@media (max-width: 1024px) {
+  .main-header {
+    background: #E7ECFF; /* Center the background */
+  }
+}
+
 .header {
   color: var(--default-color);
   background-color: none;
@@ -486,6 +493,12 @@ h6 {
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+  }
+
+  .main-header {
+    background: #E7ECFF;
+    background-position: center center !important; /* Center the background image */
+    background-size: cover !important; /* Ensure the image still covers the area */
   }
 }
 
